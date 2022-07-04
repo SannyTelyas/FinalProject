@@ -10,6 +10,7 @@ function App() {
       <Header/>
       שלום לכולם 
       היי
+      מה נשמע  
       <Footer/>
     </div>
   );

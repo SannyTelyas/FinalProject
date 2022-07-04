@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header/>
       שלום לכולם 
-      
+      היי
       <Footer/>
     </div>
   );

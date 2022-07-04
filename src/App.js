@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      תוכן אתר 
+      שלום לכולם 
       
       <Footer/>
     </div>

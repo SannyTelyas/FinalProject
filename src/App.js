@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Header/>
       this is app 
+      sanny telyas - and - tomer 
       <Footer/>
     </div>
   );

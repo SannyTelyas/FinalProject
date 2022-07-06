@@ -8,9 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      שלום לכולם 
-      היי
-      מה נשמע  
+      this is app 
       <Footer/>
     </div>
   );

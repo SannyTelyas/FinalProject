@@ -1,4 +1,5 @@
 import React from 'react';
+import thisPage1 from '../../pages/thisPage1';
 import {
   MDBNavbar,
   MDBNavbarNav,
@@ -24,7 +25,7 @@ export default function Header() {
           <div className='collapse navbar-collapse' id='navbarExample01'>
             <MDBNavbarNav right className='mb-2 mb-lg-0'>
               <MDBNavbarItem active>
-                <MDBNavbarLink aria-current='page' href='#'>
+                <MDBNavbarLink aria-current='page' href={thisPage1} component={thisPage1}>
                   עמוד הבית
                 </MDBNavbarLink>
               </MDBNavbarItem>

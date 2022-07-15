@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header/>
       this is app 
-      sanny telyas - and - tomer 
+      sanny telyas - and - tomer kozak
       <Footer/>
     </div>
   );

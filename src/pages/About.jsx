@@ -1,8 +1,11 @@
 import React from "react";
+import "../json/jsonFile.json";
 
 function thisPage1() {
+    const testJson = require("../json/jsonFile.json")
     return(
-        <div>This Is Page 1</div>
+        <div>על המועדון: {testJson[0].About}</div>
+        
     ); 
 }
 

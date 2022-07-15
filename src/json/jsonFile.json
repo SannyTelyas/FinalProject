@@ -1,11 +1,39 @@
 [
+
     {
         "Id": 0 , 
-        "ClubN": "מועדון 1" 
+        "ClubN": "רשת מועדוני הטניס" ,
+        "Email": "tomerko122313@gmail.com" ,
+        "Phone": "054-4660075" ,
+        "About": " " ,
+        "Manager": "Tomer Kozak " ,
+        "About Manger": " ",
+        "Facebook" :" " ,
+        "Instagram": " " 
+
+    }
+    ,
+    {
+        "Id": 1 , 
+        "ClubN": "מועדון הטניס סלעית" ,
+        "Email": "tomerko122313@gmail.com" ,
+        "Phone": "054-4660075" ,
+        "About": " " ,
+        "Coaches": "Tomer Kozak " ,
+        "Days": "ימי ראשון עד חמישי " ,
+        "Hours": "15:00 - 22:30 " 
+
+
     }
     , 
     {
-        "Id": 1 , 
-        "ClubN": "מועדון 2" 
+        "Id": 2 , 
+        "ClubN": "מועדון הטניס צור יצחק" ,
+        "Email": "office@t-y.org.il" ,
+        "Phone": "09-7495965" ,
+        "About": " " ,
+        "Coaches": "Ofri Oren " ,
+        "Days": "ימי ראשון ורביעי " ,
+        "Hours": "15:00 - 22:00 " 
     }
 ]

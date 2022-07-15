@@ -1,5 +1,5 @@
 import React from 'react';
-import thisPage1 from '../../pages/thisPage1';
+import thisPage1 from '../../pages/About';
 import {
   MDBNavbar,
   MDBNavbarNav,

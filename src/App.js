@@ -12,7 +12,6 @@ function App() {
       <About/>
       this is app 
       sanny telyas - and - tomer kozak 
-      test - sanny
       <Footer/>
     </div>
   );

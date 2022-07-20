@@ -10,6 +10,7 @@ import {
   MDBIcon
 } from 'mdb-react-ui-kit';
 
+
 export default function Header() {
   return (
     <header>
@@ -25,7 +26,7 @@ export default function Header() {
           <div className='collapse navbar-collapse' id='navbarExample01'>
             <MDBNavbarNav right className='mb-2 mb-lg-0'>
               <MDBNavbarItem active>
-                <MDBNavbarLink aria-current='page' href={thisPage1} component={thisPage1}>
+                <MDBNavbarLink aria-current='page' href='#'>
                   עמוד הבית
                 </MDBNavbarLink>
               </MDBNavbarItem>
@@ -42,8 +43,6 @@ export default function Header() {
           </div>
         </MDBContainer>
       </MDBNavbar>
-
-  
     </header>
   );
 }

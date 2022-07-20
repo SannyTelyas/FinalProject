@@ -3,15 +3,15 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import Header from "./Components/Header+Footer/Header"
 import Footer from "./Components/Header+Footer/Footer"
 import About from "./pages/About";
-
-
+import Clubs from "./pages/Clubs"; 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <About/>
+      {/* <About/>
       this is app 
-      sanny telyas - and - tomer kozak 
+      sanny telyas - and - tomer kozak  */}
+      <Clubs/> 
       <Footer/>
     </div>
   );

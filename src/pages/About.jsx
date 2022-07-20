@@ -3,7 +3,6 @@ import "../json/jsonFile.json";
 
 function thisPage1() {
     const testJson = require("../json/jsonFile.json"); 
-    console.log(testJson[0].AboutManager); 
     return(
         <div>
             

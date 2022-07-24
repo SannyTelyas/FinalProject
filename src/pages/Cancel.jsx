@@ -1,74 +1,45 @@
-import { useState } from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
 
-function MyForm() {
-  const [name, setName] = useState("");
+function SignUp_new() {
+    // functions 
+    return(
+        <div>
+           <form>
+            <div>
+            <label>שם פרטי:
+            <input type="text" />
+            </label>
 
-  return (
-    <form onSubmit={handleSubmit}>
-      <label>שם פרטי:
-        <input
-          type="text" 
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </label>
-      <label>שם משפחה:
-        <input
-          type="text" 
-          value={lastname}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </label>
-      <label>ת.ז:
-        <input
-          type="text" 
-          value={id}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </label>
-     
-      <label>דואר אלקטרוני:
-        <input
-          type="text" 
-          value={email}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </label>
+            <label>שם משפחה:
+            <input type="text" />
+            </label>
 
-      
+            </div>
+            <div>
+            <label> תעודת זהות:
+            <input type="text" />
+            </label>
 
-      <label> שם ההורה:
-        <input
-          type="text" 
-          value={parentname}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </label>
+            <label> תאריך פרישה:
+            <input type="date"/>
+            </label>
 
-      <label>טלפון :
-        <input
-          type="text" 
-          value={phone}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </label>
 
-      <label>סיבת הפסקה :
-        <input
-          type="text" 
-          value={reason}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </label>
+
+</div>
 
    
-      <input type="submit" />
 
+<input type="submit"></input>
+            
+           </form>
+        </div>
+        
+        
+    ); 
 
-    </form>
-  )
+    
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<MyForm />);
+
+export default SignUp_new;

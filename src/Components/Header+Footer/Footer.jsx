@@ -2,6 +2,9 @@ import React from 'react';
 import { MDBFooter } from 'mdb-react-ui-kit';
 
 export default function Footer() {
+
+
+
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       
@@ -18,8 +21,6 @@ export default function Footer() {
                 consectetur adipisicing elit.
               </p>
             </div>
-
-            
 
             <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
@@ -53,6 +54,8 @@ export default function Footer() {
               <p>
                 <i className='fas fa-envelope me-3'></i>
                 info@example.com
+              
+
               </p>
               <p>
                 <i className='fas fa-phone me-3'></i> + 01 234 567 88

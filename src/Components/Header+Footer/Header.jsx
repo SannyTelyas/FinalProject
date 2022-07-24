@@ -12,8 +12,11 @@ import {
 
 
 export default function Header() {
+  var v1 , v2 , v3; 
+  
   return (
     <header>
+
       <MDBNavbar expand='lg' light bgColor='white'>
         <MDBContainer fluid>
           <MDBNavbarToggler
